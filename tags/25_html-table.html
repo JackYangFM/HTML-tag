@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+	<head>
+		<!--声明当前页面的编码集：charset=gbk,gb2312(中文编码)，utf-8国际编码-->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!--当前页面的三要素-->
+		<title>html-table表格布局</title>
+		<meta name="Keywords" content="关键词,关键词">
+		<meta name="description" content="">
+
+		<!--css,js-->
+		<style type="text/css">
+			*{margin:0;padding:0;}
+			img{border:0;}
+			body{font-size:15px; font-family:"微软雅黑"; color:#333;}
+			div{width:1000px; margin:20px auto;}
+			table{border-collapse:collapse;}
+
+		</style>
+
+	</head>
+<body>
+	
+	<div>
+
+	<h1>table表格布局</h1>
+
+	<table border="1" width="400" height="200">
+		<th colspan="3">
+			表格标题
+		</th>
+		<tr>
+			<td>姓名</td>
+			<td>年龄</td>
+			<td>性别</td>
+		</tr>
+		<tr>
+			<td colspan="2">Martion 18</td>
+			<td rowspan="2">男</td>
+		</tr>
+		<tr>
+			<td>王老师</td>
+			<td>38</td>
+		</tr>
+		<tr>
+			<td>小强</td>
+			<td>19</td>
+			<td rowspan="3">
+				女
+			</td>
+		</tr>
+		<tr>
+			<td>杨坤</td>
+			<td>25</td>
+		</tr>
+		<tr>
+			<td>温暖</td>
+			<td>17</td>
+		</tr>
+	</table>
+
+	<div>
+
+</body>
+</html>

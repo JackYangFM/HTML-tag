@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+	<head>
+		<!--声明当前页面的编码集：charset=gbk,gb2312(中文编码)，utf-8国际编码-->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!--当前页面的三要素-->
+		<title>html-表单的动作属性（Action）和确认按钮</title>
+		<meta name="Keywords" content="关键词,关键词">
+		<meta name="description" content="">
+
+		<!--css,js-->
+		<style type="text/css">
+			*{margin:0;padding:0;}
+			img{border:0;}
+			body{font-size:15px; font-family:"微软雅黑"; color:#333;}
+			div{width:1000px; margin:20px auto;}
+
+		</style>
+
+	</head>
+<body>
+	
+	<div>
+
+	<h1>表单 - 应用</h1><br />
+	<!--method="post/get"-->
+	<form action="#" method="get">
+		
+		用户名： 
+			<input type="text" name="username" autofocus="autofocus" placeholder="请输入邮箱/qq号码"/><br /><br />
+		密&nbsp;&nbsp;&nbsp;&nbsp;码：
+			<input type="password" name="password" placeholder="请输入密码"/><br /><br /> 
+		性别：
+			<input type="radio" name="sex" /> 男
+			<input type="radio" name="sex" /> 女
+			<input type="radio" name="sex" /> 女博士<br /><br />
+ 		出生年月：
+			<select>
+				<option value="0">--请选择年--</option>
+				<option value="1990">1990 年</option>
+				<option value="1991">1991 年</option>
+				<option value="1992">1992 年</option>
+				<option value="1993">1993 年</option>
+			</select><br /><br />
+		兴趣爱好：
+			<input type="checkbox" /> 篮球
+			<input type="checkbox" /> 乒乓球
+			<input type="checkbox" /> 书法 <br /><br />
+		简介：
+			<textarea rows="5" cols="50"></textarea>
+		
+		<br /><br />
+		<input type="button" value="我是一个普通按钮"/>
+		<input type="reset" value="清空所有的表单 - 重置"/>
+		<input type="submit" value="  登     录  " /><br /><br />
+		<input type="file" /><br /><br />
+		<input type="hidden" value="arry"/>
+
+		<!--不建议使用-->
+		<input type="image" src="images/btn.png" />
+		</form>
+
+	<div>
+
+</body>
+</html>
